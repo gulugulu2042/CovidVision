@@ -1,0 +1,18 @@
+1. TensorFlow and Keras Layers and Models:
+    Dense, Flatten, Input: These are Keras layers used to define the architecture of your neural network model.
+    Model: Keras Model class is used to instantiate a model, specifying inputs and outputs.
+2. TensorFlow and Keras Utilities:
+    image: This submodule from tensorflow.keras.preprocessing provides utilities for image data handling.
+    ImageDataGenerator: Used for generating batches of augmented/normalized data from image files.
+    load_img: Function from tensorflow.keras.preprocessing.image to load an image file into a PIL image object.
+3. Pre-trained Models:
+    InceptionV3: A pre-trained deep learning model from Keras Applications (tensorflow.keras.applications.inception_v3). This can be used as a base model or for transfer learning.
+    preprocess_input: Function from InceptionV3 module to preprocess input images for use with InceptionV3 model.
+4. File Handling and Utilities:
+    glob: Used for file handling. glob.glob() retrieves files/pathnames matching a specified pattern (wildcard).
+5. Numeric and Plotting Libraries:
+    numpy: Fundamental package for scientific computing with Python. Provides support for large, multi-dimensional arrays and matrices, along with a collection of
+mathematical functions.
+    matplotlib.pyplot: Python plotting library used for creating static, animated, and interactive visualizations.
+6. Flask: Web framework used for building Web applications
+
